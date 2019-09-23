@@ -4,7 +4,7 @@ AWS ECS node.js app example for AWS Codepipeline
 It is very simple node.js app example to configure AWS ECS service & task.
 this app use dynamic port mapping of AWS ALB for ECS blue/green deployment.
 
-# Environments
+## Environments
 
 The node.js app example for these environments:
 
@@ -13,7 +13,7 @@ The node.js app example for these environments:
 - AWS Codebuild : for make ECR image
 - AWS Codedeploy : for ECS blue/green deployment
 
-# Configuration files
+## Configuration files
 
 - Dockerfile : for AWS Codebuild, AWS ECR
 - appspec.yml : for AWS Codedeploy
@@ -29,3 +29,11 @@ IMAGE_TAG           latest
 MEMORY_RESV         100
 ```
 - taskdef.json : for ECS Task Definitions in deployment
+
+## Related
+
+- Infra code (Terraform) for this app : https://github.com/gnokoheat/ecs-with-codepipeline-example-by-terraform
+- Get the docker hub image
+```
+docker push gnokoheat/ecs-nodejs-initial:latest
+```

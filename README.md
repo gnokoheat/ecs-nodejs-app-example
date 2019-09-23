@@ -35,5 +35,5 @@ MEMORY_RESV         100
 - Infra code (Terraform) for this app : https://github.com/gnokoheat/ecs-with-codepipeline-example-by-terraform
 - Get the docker hub image
 ```
-docker push gnokoheat/ecs-nodejs-initial:latest
+docker pull gnokoheat/ecs-nodejs-initial:latest
 ```

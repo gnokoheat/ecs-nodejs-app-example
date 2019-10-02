@@ -32,6 +32,7 @@ MEMORY_RESV         100
 
 ## Related
 
+- ECS reverse proxy : https://github.com/gnokoheat/ecs-reverse-proxy
 - Infra code (Terraform) for this app : https://github.com/gnokoheat/ecs-with-codepipeline-example-by-terraform
 - Get the docker hub image
 ```

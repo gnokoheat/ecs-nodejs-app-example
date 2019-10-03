@@ -1,4 +1,6 @@
 # ecs-nodejs-app-example
+![GitHub](https://img.shields.io/github/license/gnokoheat/ecs-nodejs-app-example) ![GitHub package.json version](https://img.shields.io/github/package-json/v/gnokoheat/ecs-nodejs-app-example) ![GitHub repo size](https://img.shields.io/github/repo-size/gnokoheat/ecs-nodejs-app-example) ![Docker Pulls](https://img.shields.io/docker/pulls/gnokoheat/ecs-nodejs-initial) ![GitHub top language](https://img.shields.io/github/languages/top/gnokoheat/ecs-nodejs-app-example)
+
 AWS ECS node.js app example for AWS Codepipeline
 
 It is very simple node.js app example to configure AWS ECS service & task.

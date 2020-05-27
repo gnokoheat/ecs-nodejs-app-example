@@ -8,6 +8,7 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
+       -  633326747231.dkr.ecr.us-east-1.amazonaws.com/nodejs.app
   build:
     commands:
       - echo Build started on `date`
